@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-container div>img{
+    display: flex;
+    margin-top: 40px;
+    width: 140px;
+    margin-left: 50px;
+}
+div>ul.list{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    position: absolute;
+    top: 30px;
+    left: 320px;
+    
+}
+.list-item{
+    margin: 30px;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+}
+
+.search-icon{
+    position: absolute;
+    right: 240px;
+    top: 60px;
+}
+.nav-button{
+    position: absolute;
+    right: 100px;
+    top: 56px;
+    width: 130px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 7px;
+    font-size: 17px;
+    color: rgb(75, 75, 75);
+}
+.globe{
+    position: absolute;
+    top: 130px;
+    right: 550px;
+}
+.globe>img{
+    width: 52px;
+}
+.square{
+    position: absolute;
+    left: 180px;
+    bottom: 30px;
+}
+.square>img{
+    width: 290px;
+}
+.star>img{
+    position: absolute;
+    width: 40px;
+    left: 530px;
+    bottom: 60px;
+}
+.star1>img{
+    position: absolute;
+    width: 50px;
+    right: 140px;
+    top: 150px;
+}
+.image-person>img{
+    position: absolute;
+    left: 92px;
+    width: 315px;
+    top: 130px;
+}
+.hero-heading{
+    display: flex;
+    position: absolute;
+    right: 100px;
+    top: 230px;
+    font-size: 48px;
+    font-family: 'Orbitron', sans-serif;
+}
+.hero-description{
+    display: inline-block;
+    width: 570px;
+    position: absolute;
+    bottom: 250px;
+    right: 110px;
+    font-size: 13px;
+    color: rgb(143, 141, 141);
+    font-family: 'Poppins', sans-serif;
+}
+.description-last{
+    position: absolute;
+    right: 300px;
+    bottom: 230px;
+    font-size: 13px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(143, 141, 141);
+}
+div>button.button-email{
+    display: inline-block;
+    position: absolute;
+    right: 410px;
+    bottom: 170px;
+    width: 170px;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Orbitron';
+    color: rgb(101, 101, 101);
+}
+div>button.button-join{
+    display: inline-block;
+    position: absolute;
+    right: 270px;
+    bottom: 170px;
+    width: 120px;
+    padding: 3px;
+    font-size: 16px;
+    border-radius: 10px;
+    font-family: 'Orbitron';
+    background-color: black;
+    color: white;
+}
+div>h4.contact-heading{
+    position: absolute;
+    bottom: 80px;
+    right: 370px;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    font-weight:500;
+    color: rgb(101, 101, 101);
+}
+.icons{
+    position: absolute;
+    bottom: 38px;
+    right: 337px;
+}
+.icons>span{
+    margin: 6px;
+}
+.icons span>img{
+    width: 25px;
+}
